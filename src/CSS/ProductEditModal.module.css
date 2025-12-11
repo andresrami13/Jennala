@@ -1,0 +1,94 @@
+
+.modal_overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Asegura que esté por encima de todo lo demás (Header, Footer, Contenido) */
+    z-index: 1000; 
+}
+
+.modal_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px; 
+    position: relative;
+    max-height: 80vh; 
+    overflow-y: auto; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal_content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+}
+
+.modal_content form label  {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: #6E2E28;
+    width: 95%;
+}
+
+.modal_content form input {
+    padding: 8px;
+    border: 1px solid #6E2E28;
+    border-radius: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    width: 95%;
+}
+
+.modal_content textarea {
+    padding: 8px;
+    border: 1px solid #6E2E28;
+    border-radius: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    width: 95%;
+    resize: vertical; 
+    min-height: 80px; 
+}
+
+/* 3. Estilos para el formulario o acciones internas */
+.modal_actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+.modal_actions button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
+.button_Delete {
+    background-color: #B22222;
+    color: white;
+}
+
+.button_Modify {
+    background-color: #82FFBA;
+    color: #6E2E28;
+    transform: none;
+    
+}

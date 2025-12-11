@@ -1,0 +1,51 @@
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #6E2E28;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px gray;
+    background-color: #FFF5F0;
+    justify-content: center;
+}
+
+.login_form h2 {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    color: #471E1A;
+}
+
+.login_form label {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: #6E2E28;
+}
+
+.login_form input {
+    padding: 8px;
+    border: 1px solid #6E2E28;
+    border-radius: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+
+.login_form button {
+    background-color: #6E2E28;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.login_form button:hover {
+    background-color: #471E1A;
+}

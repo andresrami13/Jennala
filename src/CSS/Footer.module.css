@@ -1,0 +1,22 @@
+
+
+.footer_style {
+    background-color: #6E2E28;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100vw;
+}   
+
+.footer_style p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin: 20px ;
+}

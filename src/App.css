@@ -1,0 +1,20 @@
+/* 1. Resetear la altura del viewport */
+html, body, #root {
+    height: 100%; /* Ocupa el 100% de la altura de la ventana */
+    margin: 0;   /* Elimina el margen predeterminado */ /* Color de fondo suave */
+}
+
+
+
+/* 2. Aplicar Flexbox al contenedor principal */
+#root { /* O el elemento que envuelve todo tu código en App.jsx */
+    display: flex;
+    flex-direction: column;/* Apila Header, Contenido y Footer verticalmente */
+}
+
+/* 3. Forzar al Contenido Principal a Estirarse */
+/* Si tu contenido intermedio no está dentro de un <main>, usa un <div> con una clase */
+.main-content-wrapper { /* O usa <main> si lo tienes */
+    flex-grow: 1;
+    background-color: #FCEFDB; /* Esta es la propiedad crucial: toma todo el espacio vertical restante */
+}

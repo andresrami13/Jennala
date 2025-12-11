@@ -1,0 +1,13 @@
+
+form label {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: #6E2E28;
+}
+form input {
+    padding: 8px;
+    border: 1px solid #6E2E28;
+    border-radius: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
