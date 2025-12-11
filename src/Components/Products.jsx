@@ -19,7 +19,7 @@ function Products() {
         goToPrevPage,
         isFirstPage,
         isLastPage,
-    } = usePagination(data || [], 6);
+    } = usePagination(data || [], 5);
 
 
     //3 Dependiendo si esta cargando o si hay error se devuelve lo correspondiente
